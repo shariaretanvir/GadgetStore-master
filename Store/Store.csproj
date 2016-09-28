@@ -112,11 +112,16 @@
   <ItemGroup>
     <Content Include="app\aa.html" />
     <Content Include="app\aa.js" />
+    <Content Include="app\component\cartapp.js" />
+    <Content Include="app\component\cartdetails.html" />
+    <Content Include="app\controllers\checkoutCtrl.js" />
     <Content Include="app\controllers\gadgetctrl.js" />
     <Content Include="app\controllers\mainController.js" />
     <Content Include="app\mainapp.js" />
     <Content Include="app\service\mainservice.js" />
     <Content Include="app\views\a.html" />
+    <Content Include="app\views\checkout.html" />
+    <Content Include="app\views\directive.html" />
     <Content Include="app\views\gadgets.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />

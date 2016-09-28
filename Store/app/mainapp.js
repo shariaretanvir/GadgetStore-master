@@ -1,5 +1,5 @@
 ﻿
-var app = angular.module("myapp", ["ngRoute", 'ui.bootstrap'])
+var app = angular.module("myapp", ["ngRoute", "cartApp", 'ui.bootstrap'])
     .config(function ($routeProvider, $locationProvider) {
         $locationProvider.html5Mode(true);
         $routeProvider.when("/gadgets", {
@@ -7,6 +7,9 @@ var app = angular.module("myapp", ["ngRoute", 'ui.bootstrap'])
         });
         $routeProvider.when("/aa", {
             templateUrl : "app/aa.html"
+        });
+        $routeProvider.when("/checkout", {
+            templateUrl: "app/views/checkout.html"
         });
        $routeProvider.otherwise({
         redirectTo: "/gadgets"
